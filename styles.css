@@ -9,6 +9,8 @@
 body {
     background-color: #5a5a5a;
     color: white;
+    font-family: "Poppins";
+    font-weight: 400;
 }
 
 
@@ -46,9 +48,28 @@ header {
 }
 
 /* Landing */
-#landing h1 {
-    text-align: center;
+#landing {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-image: url();
 }
+
+#landing .desktop {
+    text-align: center;
+    font-size: 12.5rem;
+    height: auto;
+    width: 70%;
+    background-color: #76F5c7;
+}
+
+/* #landing h1 {
+    text-align: center;
+    width: auto;
+    background-color: #76F5C7;
+    padding: 2rem;
+    font-size: 4rem;
+} */
 
 /* About */
 
