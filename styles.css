@@ -122,6 +122,7 @@ header {
 /* Services */
 #Services {
     display: flex;
+
 }
 
 #Services .container {
@@ -140,6 +141,7 @@ header {
     background-image: url("/images/reduced/IMG_7462_med.jpeg");
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     width: 25rem;
     height: 35rem;
 }
@@ -148,14 +150,16 @@ header {
     background-image: url("/images/reduced/IMG_7461_med.jpeg");
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     width: 25rem;
     height: 35rem;
 }
 
 #Services .audio .image-container {
     background-image:  url("/images/reduced/IMG_7454_med.jpeg");
+    background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: left;
     width: 25rem;
     height: 35rem;
 }
