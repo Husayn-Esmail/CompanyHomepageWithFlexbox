@@ -6,11 +6,27 @@
     font-size: 16px;
 }
 
+/* Universal Styles */
+
 body {
     background-color: #5a5a5a;
     color: white;
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
+}
+
+.text {
+    font-weight: 200;
+    font-size: 1.1rem;
+    line-height: 2.1rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.heading {
+    text-align: center;
+    font-weight: 600;
+    font-size: 3rem;
+    color: #76F5C7;
 }
 
 
@@ -82,13 +98,6 @@ header {
     padding-top: 3rem;
 }
 
-#About h2 {
-    text-align: center;
-    font-weight: 600;
-    font-size: 3rem;
-    color: #76F5C7;
-}
-
 #About .image-container {
     background-image: url("images/reduced/globe.jpg");
     width: 25rem;
@@ -109,9 +118,8 @@ header {
     justify-self: first baseline;
     margin-left: 3rem;
     min-width: 475px;
-    font-weight: 300;
-    font-size: 1.1rem;
 }
+
 /* Services */
 
 /* Crew */
@@ -125,3 +133,4 @@ footer {
     background-color: #CECECE;
     color: black;
 }
+
