@@ -122,7 +122,7 @@ header {
 /* Services */
 #Services {
     display: flex;
-
+    padding-bottom: 3rem;
 }
 
 #Services .container {
@@ -131,6 +131,7 @@ header {
 
 #Services .content {
     display: inline-flex;
+    padding: 0 10rem;
 }
 
 #Services .subheading {
@@ -172,6 +173,12 @@ header {
     background-position: left;
     width: 25rem;
     height: 35rem;
+}
+
+#Services .text {
+    text-align: center;
+    padding-top: 1.5rem; 
+    width: 80%;
 }
 
 /* Crew */
