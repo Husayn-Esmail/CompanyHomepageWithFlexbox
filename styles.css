@@ -43,8 +43,11 @@ header {
     padding-bottom: 3.4rem;
 }
 
-.nav {
+.mob-nav {
+    display: none;
+}
 
+.nav {
     display: inline-flex;
     position: fixed;
     background-color: #CECECE;
@@ -80,11 +83,50 @@ header {
     color: #5a5a5a;
 }
 
-@media only screen and (max-width: 810) {
+@media only screen and (max-width: 810px) {
     .nav a {
         font-size: 1.2rem;
     }
 }
+
+@media only screen and (max-width: 390px) {
+    .nav {
+        display: none;
+    }
+
+    .mob-nav {
+        display: inline-flex;
+        position: fixed;
+        background-color: #CECECE;
+        width: 100%;
+        padding: 0.5rem 1rem;
+        color: black;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .mob-nav img {
+        width: 3rem;
+        height: 3rem;
+    }
+    
+    .mob-nav ul {
+    
+        display: inline-flex;
+        list-style-type: none;
+        justify-content: flex-end;
+    }
+    
+    .mob-nav li {
+        padding: 0 1rem 0 1rem;
+    }
+    
+    .mob-nav a {
+        text-decoration: none;
+    }
+}
+
+
 
 /* Landing */
 #landing {
