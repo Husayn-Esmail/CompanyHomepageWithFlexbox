@@ -59,6 +59,7 @@ header {
     background-image: url("/images/reduced/IMG_7103_med.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     padding: 21rem 0;
 }
 
@@ -70,12 +71,11 @@ header {
 
 #landing .desktop {
     text-align: center;
-    font-size: 12.5rem;
+    font-size: 6rem;
     height: auto;
-    width: 70%;
+    padding: 1rem 3rem;
     background-color: #76F5c7;
 }
-
 /* About */
 
 
