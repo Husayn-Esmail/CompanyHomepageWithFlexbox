@@ -432,6 +432,47 @@ header {
         width: 15rem;
         height: 15rem;
     }
+
+    @media only screen and (max-width: 390px) {
+        #Crew {
+            flex-direction: column;
+        }
+
+        #Crew .text {
+            justify-content: center;
+            align-self: center;
+            margin: 1rem;
+            min-width: 350px;
+        }
+
+        #Crew .person {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+        }
+
+        #Crew .person .image {
+            width: 20rem;
+            height: 20rem;
+            background-position:top;
+            border-radius: 11rem;
+        }
+
+        #Crew .person2 {
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+        }
+
+        #Crew .person2 .image {
+            width: 20rem;
+            height: 20rem;
+            background-position:top;
+            border-radius: 11rem;
+        }
+    }
 }
 
 
