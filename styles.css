@@ -16,14 +16,14 @@ body {
 
 /* Navigation/Header */
 header {
-    padding-bottom: 3.5rem;
+    padding-bottom: 3.4rem;
 }
 .nav {
     display: inline-flex;
     position: fixed;
     background-color: #CECECE;
     width: 100%;
-    padding: 1rem;
+    padding: 0.5rem 1rem;
     color: black;
     justify-content: space-between;
     align-items: center;
@@ -79,7 +79,7 @@ header {
 /* About */
 #About  {
     display: flex;
-    padding-top: 2rem;
+    padding-top: 3rem;
 }
 
 #About h2 {
