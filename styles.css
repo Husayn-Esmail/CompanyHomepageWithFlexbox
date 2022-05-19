@@ -119,8 +119,46 @@ header {
     margin-left: 3rem;
     min-width: 475px;
 }
-
 /* Services */
+#Services {
+    display: flex;
+}
+
+#Services .container {
+    margin-top: 3em;
+}
+
+#Services .content {
+    display: inline-flex;
+}
+
+#Services .subheading {
+    text-align: center;
+}
+
+#Services .video .image-container{
+    background-image: url("/images/reduced/IMG_7462_med.jpeg");
+    background-size: cover;
+    background-position: center;
+    width: 25rem;
+    height: 35rem;
+}
+
+#Services .photo .image-container {
+    background-image: url("/images/reduced/IMG_7461_med.jpeg");
+    background-size: cover;
+    background-position: center;
+    width: 25rem;
+    height: 35rem;
+}
+
+#Services .audio .image-container {
+    background-image:  url("/images/reduced/IMG_7454_med.jpeg");
+    background-size: cover;
+    background-position: center;
+    width: 25rem;
+    height: 35rem;
+}
 
 /* Crew */
 
