@@ -135,6 +135,10 @@ header {
 
 #Services .subheading {
     text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
 }
 
 #Services .content .column {
