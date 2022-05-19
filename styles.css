@@ -173,7 +173,6 @@ header {
 }
 
 #Services .content {
-
     display: inline-flex;
     padding: 0 10rem;
 }
@@ -187,7 +186,6 @@ header {
 }
 
 #Services .content .column {
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -224,6 +222,57 @@ header {
     text-align: center;
     padding-top: 1.5rem; 
     width: 80%;
+}
+@media only screen and (max-width: 810px) {
+    #Services {
+        padding: 0;
+        margin: 0;
+    }
+    #Services .content {
+        margin: 0;
+        padding: 0;
+    }
+    
+    #Services .subheading { 
+        font-size: 1.1rem;
+        font-weight: 400;
+    }
+
+    #Services .column {
+        margin: 0;
+        padding: 0;
+    }
+
+    #Services .video {
+        flex: 30%;
+    }
+
+    #Services .photo {
+        flex: 30%;
+    }
+    #Services .audio {
+        flex: 30%;
+    }
+
+    #Services .video .image {
+        width: 17rem;
+        height: 27rem;
+        padding: 0;
+        margin: 0;
+    }
+    #Services .photo .image {
+        width: 17rem;
+        height: 27rem;
+    }
+    #Services .audio .image {
+        width: 17rem;
+        height: 27rem;
+    }
+
+    #Services .text {
+        flex: 30%;
+        font-size: 1rem; 
+    }
 }
 
 /* Crew */
