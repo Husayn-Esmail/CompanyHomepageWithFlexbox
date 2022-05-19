@@ -7,7 +7,6 @@
 }
 
 /* Universal Styles */
-
 body {
     background-color: #5a5a5a;
     color: white;
@@ -91,6 +90,7 @@ header {
     height: auto;
     padding: 1rem 3rem;
     background-color: #76F5c7;
+    color: black;
 }
 /* About */
 #About  {
@@ -182,6 +182,53 @@ header {
 }
 
 /* Crew */
+#Crew {
+    margin-bottom: 3rem;
+}
+
+#Crew .heading {
+    margin-bottom: 1rem;
+}
+
+#Crew .text {
+    align-self: first baseline;
+    width: 25%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+
+#Crew .person {
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 1rem 1rem 1rem;
+}
+
+#Crew .person .image {
+    background-image: url("images/reduced/IMG_7237_med.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 20rem;
+    height: 23rem;
+}
+
+#Crew .person2 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 1rem 2rem 1rem 0rem;
+}
+
+#Crew .person2 .image {
+    background-image: url("images/reduced/IMG_7351_med.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 20rem;
+    height: 23rem;
+}
+
 
 /* Footer */
 footer {
