@@ -122,11 +122,10 @@ header {
 /* Services */
 #Services {
     display: flex;
-    padding-bottom: 3rem;
 }
 
 #Services .container {
-    margin-top: 3em;
+    margin-top: 3rem;
 }
 
 #Services .content {
@@ -183,7 +182,12 @@ header {
 
 /* Crew */
 #Crew {
+    display: flex;
     margin-bottom: 3rem;
+}
+
+#Crew .container{
+    margin-top: 3rem;
 }
 
 #Crew .heading {
