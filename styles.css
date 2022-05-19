@@ -16,7 +16,7 @@ body {
 
 /* Navigation/Header */
 header {
-    padding-bottom: 4rem;
+    padding-bottom: 3.5rem;
 }
 .nav {
     display: inline-flex;
@@ -26,6 +26,12 @@ header {
     padding: 1rem;
     color: black;
     justify-content: space-between;
+    align-items: center;
+}
+
+.nav .title {
+    font-weight: 500;
+    font-size: 1.5rem;
 }
 
 .nav ul {
@@ -49,10 +55,17 @@ header {
 
 /* Landing */
 #landing {
-    display: flex;
-    justify-content: center;
     width: 100%;
-    background-image: url();
+    background-image: url("/images/reduced/IMG_7103_med.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 21rem 0;
+}
+
+#landing div {
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
 
 #landing .desktop {
