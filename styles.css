@@ -277,7 +277,6 @@ header {
 
 /* Crew */
 #Crew {
-
     display: flex;
     margin-bottom: 3rem;
 }
@@ -297,9 +296,7 @@ header {
     margin-right: 2rem;
 }
 
-
 #Crew .person {
-
     display: inline-flex;
     justify-content: center;
     align-items: flex-start;
@@ -329,6 +326,34 @@ header {
     background-position: right;
     width: 20rem;
     height: 23rem;
+}
+
+@media only screen and (max-width: 810px) {
+    #Crew .text {
+        font-size: 1rem;
+        margin: 0 1rem;
+        width: 60%;
+
+    }
+
+    #Crew .person {
+        width: 100%;
+        align-items: flex-start;
+    }
+    #Crew .person .image {
+        width: 15rem;
+        height: 15rem;
+    }
+
+    #Crew .person2 {
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    #Crew .person2 .image {
+        width: 15rem;
+        height: 15rem;
+    }
 }
 
 
