@@ -134,3 +134,10 @@ footer {
     color: black;
 }
 
+footer .copyright {
+    margin-left: 1rem;
+}
+
+footer .filler {
+    margin-right: 1rem;
+}
