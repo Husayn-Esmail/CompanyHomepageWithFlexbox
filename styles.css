@@ -240,7 +240,6 @@ header {
         margin: 1rem;
         min-width: 350px;
     }
-
 }
 /* Services */
 #Services {
@@ -453,4 +452,10 @@ footer .copyright {
 
 footer .filler {
     margin-right: 1rem;
+}
+
+@media only screen and (max-width: 390px) {
+    footer .copyright, footer .filler {
+        font-size: 0.8rem;
+    }
 }
