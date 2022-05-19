@@ -54,7 +54,7 @@ header {
 }
 
 /* Landing */
-/* #landing {
+#landing {
     width: 100%;
     background-image: url("/images/reduced/IMG_7103_med.jpeg");
     background-repeat: no-repeat;
@@ -75,7 +75,7 @@ header {
     height: auto;
     padding: 1rem 3rem;
     background-color: #76F5c7;
-} */
+}
 /* About */
 #About  {
     display: flex;
@@ -98,7 +98,20 @@ header {
     border-radius: 3rem;
 }
 
+#About .content {
+    margin-top: 2rem;
+    display: inline-flex;
+    justify-content: center;
+}
 
+#About .content p {
+    width: 25%;
+    justify-self: first baseline;
+    margin-left: 3rem;
+    min-width: 475px;
+    font-weight: 300;
+    font-size: 1.1rem;
+}
 /* Services */
 
 /* Crew */
