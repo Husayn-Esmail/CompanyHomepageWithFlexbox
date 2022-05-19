@@ -111,15 +111,15 @@ header {
     color: black;
 }
 
-@media only screen and (max-width: 810) {
-    #landing  {
-        padding: 10rem;
+@media only screen and (max-width: 810px) {
+    #landing {
+        padding: 7rem 0;
     }
-    #landing .desktop {
-        text-align: center; 
-        font-size: 4rem;
-        color: white;
 
+    #landing .tablet {
+        font-size: 4rem;
+        color: black;
+        background-color: #76F5C7dd;
     }
 }
 
@@ -140,7 +140,6 @@ header {
 
 #About .content {
     display: inline-flex;
-
     margin-top: 1.5rem;
     justify-content: center;
 }
@@ -150,6 +149,19 @@ header {
     justify-self: first baseline;
     margin-left: 3rem;
     min-width: 475px;
+}
+
+@media only screen and (max-width: 810px) {
+    #About .image {
+        width: 15rem;
+        height: 15rem;
+    }
+    #About .content p {
+        width: 10%;
+        max-width: 10%;
+        font-size: 0.9rem;
+        overflow: hidden;
+    }
 }
 /* Services */
 #Services {
