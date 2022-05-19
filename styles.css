@@ -216,6 +216,32 @@ header {
         overflow: hidden;
     }
 }
+
+@media only screen and (max-width: 390px) {
+    #About {
+        display: flex;
+        flex-direction: column;
+    }
+    #About .content {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    #About .image {
+        justify-self: center;
+        align-self: center;
+        width: 100%;
+        margin: 1rem 1rem;
+    }
+    #About .content p {
+        font-size: 1rem;
+        margin: 1rem;
+        min-width: 350px;
+    }
+
+}
 /* Services */
 #Services {
     display: flex;
