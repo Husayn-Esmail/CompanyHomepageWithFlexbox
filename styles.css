@@ -353,6 +353,38 @@ header {
     }
 }
 
+@media only screen and (max-width: 390px) {
+    #Services {
+        flex-direction: column;
+    }
+
+    #Services .content {
+        flex-direction: column;
+   }
+
+   #Services .subheading {
+       font-size: 1.5rem;
+       font-weight: 500;
+   }
+
+   #Services .video .image {
+       width: 100%;
+   }
+
+   #Services .photo .image {
+       width: 100%;
+   }
+   
+   #Services .audio .image {
+       width: 100%;
+   }
+
+   #Services .text {
+        width: 100%;
+        padding: 1rem;
+   }
+}
+
 /* Crew */
 #Crew {
     display: flex;
