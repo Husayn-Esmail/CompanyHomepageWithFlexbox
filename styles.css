@@ -126,8 +126,6 @@ header {
     }
 }
 
-
-
 /* Landing */
 #landing {
     width: 100%;
@@ -162,6 +160,19 @@ header {
         font-size: 4rem;
         color: black;
         background-color: #76F5C7dd;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    #landing {
+        padding: 8rem;
+    }
+
+    #landing .mobile {
+        font-size: 6rem;
+        color: #76F5C8;
+        /* background-color: #76F5C7DD; */
+        background-color: transparent;
     }
 }
 
