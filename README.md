@@ -1,9 +1,9 @@
 # Company Home Page with Flexbox
 
-![Landing Page](./images/readme_screenshots/landing "Landing Section")
-![About](./images/readme_screenshots/about "About")
-![Services](./images/readme_screenshots/services "Services")
-![Crew](./images/readme_screenshots/crew "Crew")
+![Landing Page](./images/readme_screenshots/landing.png "Landing Section")
+![About](./images/readme_screenshots/about.png "About")
+![Services](./images/readme_screenshots/services.png "Services")
+![Crew](./images/readme_screenshots/crew.png "Crew")
 
 
 
