@@ -129,7 +129,7 @@ header {
 /* Landing */
 #landing {
     width: 100%;
-    background-image: url("/images/reduced/IMG_7103_med.jpeg");
+    background-image: url("./images/reduced/IMG_7103_med.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -183,7 +183,7 @@ header {
 }
 
 #About .image {
-    background-image: url("images/reduced/globe.jpg");
+    background-image: url("./images/reduced/globe.jpg");
     width: 25rem;
     height: 25rem;
     background-size: cover;
@@ -270,7 +270,7 @@ header {
 }
 
 #Services .video .image{
-    background-image: url("/images/reduced/IMG_7462_med.jpeg");
+    background-image: url("./images/reduced/IMG_7462_med.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -279,7 +279,7 @@ header {
 }
 
 #Services .photo .image {
-    background-image: url("/images/reduced/IMG_7461_med.jpeg");
+    background-image: url("./images/reduced/IMG_7461_med.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -288,7 +288,7 @@ header {
 }
 
 #Services .audio .image {
-    background-image:  url("/images/reduced/IMG_7454_med.jpeg");
+    background-image:  url("./images/reduced/IMG_7454_med.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
